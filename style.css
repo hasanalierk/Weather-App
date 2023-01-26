@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+  /* background-image: url(./img/afrika.webp); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  background-color: tomato;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 100px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.desc {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.minmax {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.wind {
+  font-size: 20px;
+}
